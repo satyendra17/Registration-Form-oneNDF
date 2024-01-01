@@ -1,4 +1,3 @@
-// src/components/RegistrationForm/RegistrationFormStyles.js
 import styled from 'styled-components';
 import { createGlobalStyle } from 'styled-components';
 
@@ -20,7 +19,7 @@ export const FormContainer = styled.div`
   border: 1px solid #3498db;
   border-radius: 6px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-top: 2px solid #3498db; /* Add this line for top border */
+  border-top: 2px solid #3498db; 
   border-bottom: 2px solid #3498db; 
   background-color: #ecf0f1;
   box-sizing: border-box;
@@ -49,11 +48,6 @@ export const Label = styled.label`
   font-size: 18px;
   color: #2c3e50;
 `;
-
-// Rest of the styles...
-
-
-
 
 export const Input = styled.input`
   padding: 12px;
@@ -112,10 +106,6 @@ export const ErrorMessage = styled.p`
   font-size: 18px;
 `;
 
-// Add the following global style to prevent scrolling
-
-
-// src/components/RegistrationForm/RegistrationFormStyles.js
 export const GlobalStyle = createGlobalStyle`
   body, html {
     overflow: hidden;

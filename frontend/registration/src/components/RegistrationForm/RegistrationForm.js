@@ -38,7 +38,7 @@ const RegistrationForm = () => {
     setLoading(true);
 
     try {
-      // Simulate an API call, replace with actual logic
+      
       await new Promise((resolve) => setTimeout(resolve, 1500));
       setSuccess(true);
       setError('');
